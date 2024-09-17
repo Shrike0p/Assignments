@@ -35,7 +35,7 @@ int main() {
     node1->next = node2;
     node2->next = node3;
     node3->next = node4;
-    node4->next = node2; // Create a cycle
+    node4->next = node2; 
 
     Solution solution;
     ListNode *result = solution.detectCycle(node1);
@@ -45,7 +45,6 @@ int main() {
         cout << "No cycle detected in the linked list" << endl;
     }
 
-    // Deallocate memory
     delete node1;
     delete node2;
     delete node3;
