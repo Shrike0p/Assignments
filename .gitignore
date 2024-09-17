@@ -1,2 +1,3 @@
-./Bonus/Frontend/node_modules
-./Backend/Backend/node_modules
+# Ignore node_modules in both Frontend and Backend directories
+Bonus/Frontend/node_modules/
+Backend/Backend/node_modules/
